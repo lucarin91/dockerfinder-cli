@@ -2,32 +2,40 @@
 DockerFinder Client
 ===================
 
-.. image:: https://img.shields.io/pypi/v/df_cli.svg
-        :target: https://pypi.python.org/pypi/df_cli
+.. image:: https://img.shields.io/pypi/v/dfinder.svg
+        :target: https://pypi.python.org/pypi/dfinder
 
-.. image:: https://img.shields.io/travis/lucarin91/df_cli.svg
-        :target: https://travis-ci.org/lucarin91/df_cli
+.. image:: https://img.shields.io/travis/lucarin91/dockerfinder-cli.svg
+        :target: https://travis-ci.org/lucarin91/dockerfinder-cli
 
-.. image:: https://readthedocs.org/projects/df-cli/badge/?version=latest
-        :target: https://df-cli.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
+..
+        .. image:: https://readthedocs.org/projects/df-cli/badge/?version=latest
+                :target: https://df-cli.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+
+..
+        .. image:: https://pyup.io/repos/github/lucarin91/df_cli/shield.svg
+        :target: https://pyup.io/repos/github/lucarin91/df_cli/
+        :alt: Updates
 
 
-.. image:: https://pyup.io/repos/github/lucarin91/df_cli/shield.svg
-     :target: https://pyup.io/repos/github/lucarin91/df_cli/
-     :alt: Updates
 
+A command line interface for DockerFinder.
 
-
-A command line interface to DockerFinder.
-
-.. * Documentation: https://df-cli.readthedocs.io.
+.. * Documentation: https://dockerfinder-cli.readthedocs.io.
 
 
 Quick start
 -----------
 
-TBD
+Install the Dockerfinder client using pip by the following command::
+
+  pip install dfinder
+
+After the installation just invok the dfinder software as following::
+
+  dfinder java:1.7 --sort -size --sort +stars
+
 
 Credits
 -------

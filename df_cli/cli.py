@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Console script for df_cli."""
+"""Console script for dfinder."""
 
 from __future__ import print_function
 
